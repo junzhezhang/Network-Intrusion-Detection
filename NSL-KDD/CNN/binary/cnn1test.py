@@ -9,7 +9,7 @@ from keras.layers import Embedding
 from keras.layers import Convolution1D,MaxPooling1D, Flatten
 from keras.datasets import imdb
 from keras import backend as K
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 import pandas as pd
 from keras.utils.np_utils import to_categorical
 
